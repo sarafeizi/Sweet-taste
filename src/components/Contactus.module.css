@@ -1,0 +1,48 @@
+.contact-us {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/slider-03.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 80vh;
+
+  margin: auto;
+  padding: 40px max(40px, calc((100vw - 1000px) / 2));
+  margin-top: 6%;
+}
+
+h4 {
+  color: #eccdcd;
+}
+
+textarea {
+  resize: none;
+
+  margin-top: 60px;
+  padding: 10px;
+
+  text-align: center;
+  line-height: 1.5;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+button {
+  background-color: #272727;
+  color: #eccdcd;
+
+  align-self: flex-end;
+
+  margin-top: 20px;
+  padding: 10px 30px;
+
+  border: none;
+  border-radius: 5px;
+}

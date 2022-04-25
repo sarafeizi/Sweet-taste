@@ -1,0 +1,117 @@
+@font-face {
+  font-family: mikhak;
+  src: url(../ttf/Mikhak-Black.ttf);
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'mikhak';
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 2px solid rgba(87, 87, 87, 0.18);
+  box-shadow: 1px 5px 15px rgba(168, 167, 167, 0.76);
+  z-index: 1000;
+}
+
+.main {
+  margin-left: -32px;
+}
+
+a {
+  margin: 7px;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 300px;
+  color: #ff2600;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.icon:hover {
+  color: #ff2600;
+}
+
+.header {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+.left #back {
+  color: #756767;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.left a {
+  text-decoration: none;
+  color: #756767;
+  padding: 5px;
+  font-weight: 350;
+  font-size: 20px;
+}
+
+.left a:hover {
+  color: #ff3737;
+}
+
+.loginregister {
+  font-family: 'mikhak';
+  position: relative;
+top: 30%;
+right: 4%;
+}
+
+.loginregister a {
+  font-size: 17px;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #ff2600;
+ 
+}
+
+.exitButton {
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  justify-content: center;
+  border: none;
+  background-color: hsl(0, 100%, 70%);
+  padding:2px 7px;
+  border-radius: 0.3rem;
+  position: relative;
+  top: -32%;
+  right: -19px;
+}
+ 
+.greeting {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 00.5rem 0.7rem;
+  position: relative;
+  top: -10%;
+  left: 1%;
+}

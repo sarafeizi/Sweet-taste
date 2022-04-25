@@ -1,0 +1,10 @@
+[data-theme="light"]{
+    --text-color: black;
+    --background-color: white;
+  }
+  
+  [data-theme="dark"]{
+    --text-color: #fcfcfc;
+    --background-color: #1d1c1c;
+  }
+  

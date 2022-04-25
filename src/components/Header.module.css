@@ -1,0 +1,117 @@
+@font-face {
+  font-family:lalezar;
+  src: url(../ttf/Lalezar-Regular.ttf);
+  font-weight: normal;
+}
+  .mainheader {
+    text-align: center;
+    margin-top: -5px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 50px;
+    font-size: 55px;
+ font-family:lalezar;
+    color: #eccdcd;
+    margin-bottom: 0%;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+  }
+  .mainheader {
+    min-height: calc(100vh - 76px);
+    background-image: url( "../image/13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+   position: relative;
+    height: 650px;
+    width: 100%;
+  }
+  .mainheader2{
+
+    margin-bottom: 4% !important;
+    position: relative;
+    top: 120px;
+    left: -20px;
+  }
+  
+  .mainsearch {
+    height: 55px;
+    width: 45%;
+    border: none;
+    border-radius: 3px;
+    background-color: #eccdcd;
+    opacity: .45;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    
+  }
+  
+  .mainsearch:active {
+    border: none;
+  }
+  
+  .mainheader input[placeholder] {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .mainheader input[placeholder]:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .search{
+    display: flex;
+     
+     align-items: center;
+     justify-content: center;
+     background-color:#eccdcd;
+     position: relative;
+     left: 10%;
+     margin-top: 0px;
+     min-height: 25px;
+     width: 85%;
+     border-bottom: 1px solid white;
+   }
+   .searchlink{
+   color: black;
+     font-size:15px;
+ 
+   }
+   .searchlink:hover{
+     color: #ff3737;
+   }
+   .bigsearch{
+   
+     z-index: 2;
+     overflow-y: scroll;
+     max-height: 150px;
+     max-width: 43%;
+      
+     position: relative;
+     left: -4%;
+     margin-top: 0px;
+     overflow-x: hidden;
+ 
+   }
+   .imgsearch{
+     width: 45px;
+     height: 45px;
+ 
+margin-right: 0;
+   }
+   .divvv{
+    position: absolute;
+right: 14px;
+margin-top: 10px;
+   }

@@ -1,0 +1,59 @@
+.bigcreators{
+    margin-top: -30px;
+    height:max-content;
+  }
+  
+  
+  .titlecreate{
+    color:#ff2600 ;
+    font-size: 50px;
+    margin-top: 70px;
+  }
+  .creators{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 60px;
+   
+   
+  }
+    .create{
+      background-color: #f7f7f7;
+      width: 335px;
+      height: 265px;
+      margin-top: 60px;
+      border: 1px solid black;
+      border-radius: 10px;
+      box-shadow: 1px 5px 15px rgba(168, 167, 167, 0.76);
+      transition: all 1s ease-in-out;
+    }
+    .create:hover{
+  width: 400px;
+    }
+    .createimg{
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top: 30px;
+    
+    }
+    .createh3:hover{
+  
+     color: #ff2600;
+      transform: scale(1.05);
+      
+    }
+    .createp{
+  position: relative;
+  top: 45px;
+  color: #ff2600;
+    }
+  
+    .createh3{
+      position: relative;
+      top: 40px;
+      transition: all 1s ease-in-out;
+      color: #756767;
+    }
+   

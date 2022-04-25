@@ -1,0 +1,64 @@
+.backnav{
+    background-color: #cecccc;
+    padding: 30px;
+  
+  }
+   .backnavp{
+     font-size: 150%;
+     color: #ff2600;
+   }
+   .footericon{
+ height: 20vh;
+     display: flex;
+     justify-content: space-around;
+     padding-top: 30px;
+   
+   }
+  
+.logoicon{
+  width: 30px;
+   transition: all 0.5s ease-in-out;
+}
+.logoicon:hover{
+  width: 40px;
+   
+}
+ 
+  .copyright{
+    
+    background-color: #ff2600;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+   
+  }
+  .pcopyright{
+   position: relative;
+    color: white;
+    top: 10px;
+  }
+ 
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 1%;
+  left: 47%;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

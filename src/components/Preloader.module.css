@@ -1,0 +1,245 @@
+.preloader{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  }
+ 
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.upbread {
+    opacity: 0;
+    width: 200px;
+    height: 80px;
+    background-color: #cdb116;
+    border-radius: 80px 80px 0 0;
+    position: relative;
+    animation: move 1s ease-out 0s, move2 2s ease-out 1.8s;
+}
+
+.sesame {
+    width: 10px;
+    height: 10px;
+    background-color: #fff9a7;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    transform: rotate(-45deg);
+    float: left;
+    position: absolute;
+}
+
+.tomato {
+    opacity: 0;
+    width: 200px;
+    height: 15px;
+    background-color: #f31818;
+    animation: move 1s ease-out 0s, move2 2s ease-out 1.6s;
+}
+
+.cheese {
+    opacity: 0;
+    width: 200px;
+    height: 25px;
+    background-color: #ffe600;
+    display: flex;
+    animation: move 1s ease-out 0s, move2 2s ease-out 1.4s;
+}
+
+.vegtable {
+    width: 30px;
+    height: 15px;
+    background-color: green;
+    border-radius: 0 0 20px 20px;
+}
+
+.vegtable.light {
+    background-color: greenyellow;
+}
+
+.meat {
+    opacity: 0;
+    width: 230px;
+    height: 25px;
+    background-color: maroon;
+    border-radius: 15px;
+    animation: move 1s ease-out 0s, move2 2s ease-out 1.2s;
+}
+
+.downbread {
+    opacity: 0;
+    width: 200px;
+    height: 30px;
+    background-color: #cdb116;
+    border-radius: 0 0 40px 40px;
+    animation: move 1s ease-out 0s, move2 2s ease-out 1s;
+}
+
+@keyframes move {
+    0% {transform: translateY(0);opacity: 1;}
+    99% { transform: translateY(50px); opacity: 0;}
+    1000% {transform: translateY(-50px); opacity: 0;}
+}
+
+@keyframes move2{
+    0% {transform: translateY(-50px); opacity: 0;}
+    60% {transform: translateY(0); opacity: 1;}
+    100% {transform: translateY(0); opacity: 1;}
+}
+ 
+.container.step1 .hamburger {
+    transition: transform 0.2s linear, opacity 0.4s linear;
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.container.step2 .hamburger{
+    transition: none;
+    transform: translateY(-50px);
+}
+
+.container.step3 .hamburger {
+    transition: transform 0.2s linear, opacity 0.4 linear;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.container .meat {
+    transition-delay: 0.2s;
+}
+
+.container .vegetable {
+    transition-delay: 0.4s;
+}
+
+.container .cheese {
+    transition-delay: .6s;
+}
+
+.container .tomato {
+    transition-delay: .8s;
+}
+
+.container.step3 .upbread {
+    transition-delay: 1s;
+}
+ 
+  .bigeror{
+ 
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
+  }
+ 
+
+* {
+    box-sizing: border-box;
+}
+ 
+.container {
+    position: relative;
+    z-index: -1;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container .fourleft {
+    position: absolute;
+    z-index: 1;
+    font-size: 100px;
+    margin: 0;
+    color: #c70000;
+    left: 0;
+    top: 100px;
+    
+}
+.container .fourright {
+    font-size: 100px;
+    position: absolute;
+    z-index: 1;
+  
+    margin: 0;
+    color: #c70000;
+    right: 0;
+    top: 100px;
+}
+
+ 
+
+.pizza {
+    background-image: url('../image//Pizza_Pepperoni.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container .text {
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+.container.dark .text {
+    color: #fff;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.container.dark .circle {
+    background-color: #000;
+}
+
+.s50 {
+    width: 50px;
+    height: 50px;
+}
+
+.s70 {
+    width: 70px;
+    height: 70px;
+}
+
+.s90 {
+    width: 90px;
+    height: 90px;
+}
+
+.s110 {
+    width: 90px;
+    height: 90px;
+}

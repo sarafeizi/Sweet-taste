@@ -1,0 +1,38 @@
+.desert{
+    width:  100%;
+    height: 1300px;
+    display: flex;
+    background-color: #e4e0e0;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 115px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+     
+}
+.bigdesert{
+    margin-top: -30%;
+}
+.deserth3{
+    font-size: 15px;
+    margin-bottom: -390px;
+    position: relative;
+   text-align: right;
+    top: 40px;
+    right: -35px;
+    width: 90%;
+    position: relative;
+    line-height: 40px;
+    direction: rtl;
+    color: black;
+
+}
+.deserth5{
+    width: 100%;
+    margin-top: -380px;
+font-size: 40px;
+color: #ff2600 ;
+}
+ 
