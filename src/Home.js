@@ -6,8 +6,7 @@ import Creators from './components/Creators ';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import ScrollTop from './ScrollTop';
- import Five from './menu/Five';
-
+ 
 const Home = ( ) => {
   
  
@@ -15,7 +14,7 @@ const Home = ( ) => {
     
   
         <div  >
-       <Five> 
+    
         <Header/>
         <Menu/>
         <NewRecipe/>
@@ -23,7 +22,7 @@ const Home = ( ) => {
        <ContactUs/>
         <Footer/>
         <ScrollTop/>
-        </Five>
+     
    
         </div>
  

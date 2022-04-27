@@ -24,7 +24,7 @@ const ScrollTop = () => {
     
     return (
         <div>
-                    <img className={styles.scrollTop} src={logo}onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
+                    <img className={styles.scrollTop} alt="logo" src={logo}onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
         </div>
     );
 };

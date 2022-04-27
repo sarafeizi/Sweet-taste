@@ -81,8 +81,7 @@ border: 1px solid #9c9b9b;
    .bigbutmenu{
     position: relative;
 top: -30px;
-display: flex;
-justify-content: start;
+justify-content: flex-start;
 left:  77px;
 padding: 0px 50px;
 margin-top: 10px;

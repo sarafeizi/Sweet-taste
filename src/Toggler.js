@@ -12,7 +12,6 @@ const Button = styled.button`
   font-size:20px;
   padding: 0.6rem 1rem;
   position: fixed;
-  
   position: relative;
   position :fixed;
   right: 20px;

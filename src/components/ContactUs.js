@@ -9,7 +9,7 @@ const ContactUs = () => {
     const [message, setMessage] = useState();
 
     const sendHandler = async (e) => {
-        //e.preventDefault();
+ 
         const response = await Axios.post('http://localhost:3001/contact', {
             token: localStorage.getItem('token'),
             message: message,

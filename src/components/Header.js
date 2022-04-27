@@ -52,7 +52,7 @@ const Header = () => {
              <div>
              {
               search.length ? <div  className={`${styles.bigsearch} col-10 col-md-6 mx-auto`}>{
-          searchedfoods.map(data=> <div className={`${styles.search} col-10 col-md-6 mx-auto`}> <Link to={data.title}  key={data.title} className={styles.searchlink}>{data.title}</Link><div className={styles.divvv}><img className={styles.imgsearch} src={data.image}/></div></div> )}</div>
+          searchedfoods.map(data=> <div className={`${styles.search} col-10 col-md-6 mx-auto`}> <Link to={data.title}  key={data.title} className={styles.searchlink}>{data.title}</Link><div className={styles.divvv}><img className={styles.imgsearch} alt={data.title} src={data.image}/></div></div> )}</div>
           : <p></p>
         }
                   </div>

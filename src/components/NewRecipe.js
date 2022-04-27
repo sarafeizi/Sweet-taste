@@ -19,8 +19,7 @@ const NewRecipe = ( ) => {
     
           responsive: [{
                breakpoint: 860,
-               
-            settings: {
+               settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
               initialSlide: 2,

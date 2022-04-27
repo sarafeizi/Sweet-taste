@@ -12,9 +12,9 @@ const Footer = () => {
       <p className={styles.backnavp}>مارا در شبکه های اجتماعی دنبال کنید</p>
               <div className={styles.footericon}>
 
-                    <Link to="#"><img src={telegram} className={styles.logoicon}/></Link>
-                    <Link to="#"><img src={instagram} className={styles.logoicon}/></Link>
-                    <Link to="#"><img src={google} className={styles.logoicon}/></Link>
+                    <Link to="#"><img src={telegram} alt={telegram} className={styles.logoicon}/></Link>
+                    <Link to="#"><img src={instagram} alt={instagram} className={styles.logoicon}/></Link>
+                    <Link to="#"><img src={google} alt={google} className={styles.logoicon}/></Link>
               </div>
               </div>
             <div className={styles.copyright}> 

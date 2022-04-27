@@ -1,20 +1,10 @@
-import React, { useState} from 'react';
+import React  from 'react';
 import styles from '../components/Nav.module.css';
-
-import heart from '../heart-fill.svg';
-
 import {Link} from 'react-router-dom';
  
 
 const Nav = () => {
-    const [name, setName] = useState(null);
-
- 
-
-    const logoutClickHandler = () => {
-        localStorage.removeItem('token');
-        window.location.href = '/';
-    };
+  
     return (
         <div>
         <nav className={styles.header}>
@@ -25,7 +15,7 @@ const Nav = () => {
             </div> 
             <div className={`${styles.left}  px5 `}>
                 
-                {!name ? (
+               
                     <span className={styles.loginregister}>
                         <Link to="/login" title="log-in">
                             ورود 
@@ -35,19 +25,7 @@ const Nav = () => {
                             ثبت نام 
                         </Link> 
                     </span>
-                ) : (
-                    <span className={`${styles.greeting} col-10 col-md-6 navbar-brand  `}>
-                         
-                        !عزیز {name}
-                        سلام 
-                    </span>
-                )} 
-                {name && (
-                    <button className={`${styles.exitButton} navbar-brand `} onClick={logoutClickHandler}>
-                        <img className={styles.icon} src={heart} alt="" />
-                        خروج 
-                    </button>
-                )} 
+                 
             </div>
         </nav>
         
