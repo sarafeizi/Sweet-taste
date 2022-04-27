@@ -28,7 +28,7 @@ const Header = () => {
     },[])
 
 
-    const searchedfoods=data.filter(data=>data.title.toLowerCase().includes(search.toLowerCase()))
+    const searchedfoods=data.filter(data=>data.title.includes(search.toLowerCase()))
     return (
         <div>
                  
