@@ -17,7 +17,7 @@
   
   .formcontainer {
     border: 1px solid silver;
-    width: fit-content;
+    width: 300px;
     padding: 50px;
     margin: 100px;
     border-radius: 10px;
@@ -47,7 +47,7 @@
   }
   
   .forminput {
-    width: 300px;
+    width: 200px;
     height: 30px;
     border-radius: 5px;
     padding: 0px 10px;
@@ -56,7 +56,7 @@
   }
   
   .uncompleted {
-    width: 300px;
+    width: 200px;
     height: 30px;
     border-radius: 5px;
     padding: 0px 10px;
@@ -64,7 +64,7 @@
     transition: all 0.2s ease-in;
   }
   .uncompletedadress{
-    width: 300px;
+    width: 200px;
     height: 100px;
     border-radius: 5px;
     padding: 0px 10px;
@@ -72,7 +72,7 @@
     transition: all 0.2s ease-in;
   }
   .forminputaddress{
-    width: 300px;
+    width: 200px;
     height: 100px;
     border-radius: 5px;
     padding: 0px 10px;
@@ -86,6 +86,8 @@
     outline: none;
     line-height: 30px;
     height: 30px;
+    width: 200px;
+     
     border: 1px solid #ff2600;
   }
   .uncompletedadress:focus ,.forminputaddress:focus{
@@ -186,4 +188,25 @@
   }
   
   
+   
+  .formbuttonslinkv {
+    background-color: #ff2600;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 700;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    position: relative;
+    bottom: -9px;
+ 
+  }
   
+  .formbuttonslinkv:hover {
+    background-color: #f5b370f1;
+    color: #ff2600;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }

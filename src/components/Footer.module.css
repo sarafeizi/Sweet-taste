@@ -1,7 +1,7 @@
 .backnav{
     background-color: #cecccc;
     padding: 30px;
-  
+   
   }
    .backnavp{
      font-size: 150%;
@@ -25,29 +25,31 @@
 }
  
   .copyright{
-    
+    overflow-x: hidden ;
     background-color: #ff2600;
     align-items: center;
     justify-content: center;
-    min-height: 50px;
-   
+    min-height: 60px;
+  
   }
   .pcopyright{
    position: relative;
     color: white;
     top: 10px;
+    
   }
  
 .scrollTop {
   position: fixed; 
   width: 100%;
   bottom: 1%;
-  left: 47%;
+  left: 43%;
   z-index: 1000;
   cursor: pointer;
   animation: fadeIn 0.3s;
   transition: opacity 0.4s;
   opacity: 0.5;
+   
 }
 
 .scrollTop:hover{

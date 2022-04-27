@@ -60,7 +60,7 @@ const Login = () => {
                         value={data.name}
                         onChange={changeHandler}
                         onFocus={focusHanlder} />
-                    {errors.name && touched.name && <span>{errors.name}</span>}
+                    {errors.name && touched.name && <span className={styles.span}>{errors.name}</span>}
                 </div>
                 <div className={styles.formfield}>
                     <label>رمز</label>
@@ -70,10 +70,10 @@ const Login = () => {
                         value={data.password}
                         onChange={changeHandler}
                         onFocus={focusHanlder} />
-                    {errors.password && touched.password && <span>{errors.password}</span>}
+                    {errors.password && touched.password && <span className={styles.span}>{errors.password}</span>}
                 </div>
                 <div className={styles.formbuttons}>
-                    <Link to="/signup" className={styles.formbuttonslink}>ثبت نام</Link>
+                    <Link to="/signup" className={styles.formbuttonslinkv}>ثبت نام</Link>
                     <button type="submit" className={styles.formbuttonslink}>ورود</button>
                 </div>
             </form>
