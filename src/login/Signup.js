@@ -52,7 +52,7 @@ const Signup = () => {
     }
 
     return (
-        <div className={styles.containersignup}>
+        <div className={styles.container}>
             <form onSubmit={submitHandler} className={`${styles.formcontainer} col-10 `}>
                 <h2 className={styles.header}>ثبت نام</h2>
                 <div className={styles.formfield}>
