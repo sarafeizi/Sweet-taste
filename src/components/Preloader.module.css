@@ -166,6 +166,12 @@
 h1 {
     margin: 0;
 }
+ 
+
+.largeSizeH {
+    font-size: 10rem;
+    margin-top: -3.5rem;
+}
 
 .container .fourleft {
     position: absolute;
@@ -189,7 +195,6 @@ h1 {
 }
 
  
-
 .pizza {
     background-image: url('../image//Pizza_Pepperoni.png');
     background-repeat: no-repeat;
@@ -200,8 +205,19 @@ h1 {
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    left: 50%;
-    transform: translateX(-50%);
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 .container .text {

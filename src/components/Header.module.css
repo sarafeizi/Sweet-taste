@@ -34,14 +34,18 @@
   }
   .mainheader {
     min-height: calc(100vh - 76px);
-    background-image: url( "../image/13.jpg");
+    background-image: url( "../image/13.jpg") ;
     background-repeat: no-repeat;
     background-size: cover ;
     background-attachment: fixed;
    position: relative;
     height: 650px;
     width: 100%;
+    background-position: center;
+    
+    
   }
+  
   .mainheader2{
 
     margin-bottom: 4% !important;
