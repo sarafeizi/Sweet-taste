@@ -13,7 +13,7 @@ const Error = () => {
             <div  className={ styles.fourleft}><h1 className={styles.largeSizeH}>4</h1></div>
             <div  className={styles.pizza}  src={eror}>  </div>
             <div  className={styles.fourright}><h1  className={styles.largeSizeH}>4</h1></div>
-            <p  className={styles.text}>متاسفم مثل اینکه راه رو اشتباه اومدی :(</p>
+            <p  className={styles.text}>): متاسفم مثل اینکه راه رو اشتباه اومدی </p>
         </div>
          
          
