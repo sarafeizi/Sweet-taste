@@ -2,29 +2,30 @@
   "name": "sweettaste",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.15.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.24.0",
-    "i18next": "^21.6.16",
-    "i18next-browser-languagedetector": "^6.1.4",
-    "i18next-http-backend": "^1.4.0",
-    "i18next-xhr-backend": "^3.2.2",
-    "mdbootstrap": "^4.20.0",
-    "mdbreact": "^5.2.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^2.0.4",
-    "react-dom": "^17.0.2",
-    "react-i18next": "^11.16.6",
-    "react-icons": "^4.3.1",
-    "react-router-dom": "^5.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "i18next": "^21.9.1",
+    "i18next-browser-languagedetector": "^6.1.5",
+    "i18next-http-backend": "^1.4.3",
+    "mdbreact": "5.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "17.0.2",
+    "react-i18next": "^11.18.4",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "4.0.3",
-    "react-slick": "^0.28.1",
-    "react-toastify": "^8.1.0",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^8.2.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.3",
-    "web-vitals": "^1.1.2"
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
@@ -49,9 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": "18.x"
   }
-  
 }
