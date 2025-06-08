@@ -5,7 +5,7 @@
         "tags": "ایرانی",
         "preparationTime": "60",
         "cookTime": "90",
-        "image":"https://digifood.ir/wp-content/uploads/2020/09/morgh-shrkam-por2.jpg",
+        "image":"/images/1.jpg",
         "ingredients": [
             {
                 "title": "مرغ متوسط",
@@ -80,7 +80,7 @@
         "tags": "ایرانی",
         "preparationTime": "20",
         "cookTime": "60",
-        "image":"https://i.pinimg.com/564x/b3/e2/c3/b3e2c38eb2cb58789e876689a729a150.jpg",
+        "image":"/images/2.jpg",
         "ingredients": [
             {
                 "title": "جوجه با پوست",
@@ -133,7 +133,7 @@
         "tags": "فست فود",
         "preparationTime": "20",
         "cookTime": "20",
-        "image":"https://www.salmankala.ir/wp-content/uploads/2021/01/fried-chicken.jpg",
+        "image":"/images/3.jpg",
         "ingredients": [
             {
                 "title": "ران مرغ",
@@ -181,7 +181,7 @@
         "tags": "فست فود",
         "preparationTime": "20",
         "cookTime": "30",
-        "image":"http://www.yotaab.com/%D8%A2%D8%B4%D9%BE%D8%B2%DB%8C/images/%D9%86%D8%A7%DA%AF%D8%AA-%D9%85%D8%B1%D8%BA.jpg",
+        "image":"/images/4.jpg",
         "ingredients": [
             {
                 "title": "سینه‌ مرغ",
@@ -233,7 +233,7 @@
         "tags": "ایرانی",
         "preparationTime": "10",
         "cookTime": "30",
-        "image":"https://cafesaffron.ir/wp-content/uploads/2019/09/d85d302bdc46dcae715f05c41129535d-819x1024-1.jpg",
+        "image":"/images/5.webp",
         "ingredients": [
             {
                 "title": "مرغ",
@@ -269,7 +269,7 @@
         "tags":"ایرانی",
         "preparationTime": "120",
         "cookTime": "60",
-        "image":"https://pamuh.com/wp-content/uploads/2019/08/Roasted-chicken-Recipe-PAMUH.COM_.jpg",
+        "image":"/images/6.jpg",
         "ingredients": [
             {
                 "title": "سبزی (جعفری و گشنیز ساطوری شده)",
@@ -361,7 +361,7 @@
         "tags": "ایرانی",
         "preparationTime": "30",
         "cookTime": "60",
-        "image":"https://www.dustaan.com/files/uploads/2017/12/%D9%85%D8%B1%D8%BA-%D9%85%D8%AC%D9%84%D8%B3%DB%8C.jpg",
+        "image":"/images/7.jpg",
         "ingredients": [
             {
                 "title": "رب گوجه ‌فرنگی",
@@ -422,7 +422,7 @@
         "tags":"ایرانی",
         "preparationTime": "10",
         "cookTime": "40",
-        "image":"https://files.namnak.com/users/kk/aup/201612/549_pics/%D9%88%D8%A7%D9%88%DB%8C%D8%B4%DA%A9%D8%A7%DB%8C-%D9%85%D8%B1%D8%BA.jpg",
+        "image":"/images/8.jpg",
         "ingredients": [
             {
                 "title": "سینه‌ مرغ",
@@ -472,7 +472,7 @@
         "tags": "فست فود",
         "preparationTime": "20",
         "cookTime": "20",
-        "image":"http://www.yotaab.com/%D8%A2%D8%B4%D9%BE%D8%B2%DB%8C/images/%D8%AC%D9%88%D8%AC%D9%87-%DA%86%DB%8C%D9%86%DB%8C.jpg",
+        "image":"/images/9.jpg",
         "ingredients": [
             {
                 "title": "آرد",
@@ -539,7 +539,7 @@
         "tags": "ایرانی",
         "preparationTime": "120",
         "cookTime": "60",
-        "image":"https://chishi.ir/wp-content/uploads/2019/11/zereshk-polo-ba-morgh.jpg",
+        "image":"/images/10.jpg",
         "ingredients": [
             {
                 "title": "پوست نارنج",
@@ -657,7 +657,7 @@
         "tags":"فست فود",
         "preparationTime": "15",
         "cookTime": "15",
-        "image":"https://i.pinimg.com/564x/66/73/71/667371fded81c3127864718d73aaf14c.jpg",
+        "image":"/images/11.jpg",
         "ingredients": [
             {
                 "title": "خمیر پیتزا",
@@ -716,7 +716,7 @@
         "tags":"فست فود",
         "preparationTime": "40",
         "cookTime": "20",
-        "image":"https://ghazaland.com/wp-content/uploads/2019/01/pizza-gosht-v-zeytoon2-848x477.jpg",
+        "image":"/images/12.jpg",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده",
@@ -775,7 +775,7 @@
         "tags":"فست فود",
         "preparationTime": "30",
         "cookTime": "30",
-        "image":"https://res2ran.com/upload/food/food_67.jpg",
+        "image":"/images/13.jpg",
         "ingredients": [
             {
                 "title": "آرد",
@@ -855,7 +855,7 @@
         "tags":"فست فود",
         "preparationTime": "20",
         "cookTime": "10",
-        "image":"https://www.recetin.com/wp-content/uploads/2013/07/pizza_cebolla-caramelizada.jpg.webp",
+        "image":"/images/14.webp",
         "ingredients": [
             {
                 "title": "پیاز قرمز درشت، خلال شده",
@@ -902,7 +902,7 @@
         "tags":"فست فود",
         "preparationTime": "10",
         "cookTime": "40",
-        "image":"https://www.ejiga.com/ejiga/media/9Pksm8w/9Pksm8w-0.jpg",
+        "image":"/images/15.jpg",
         "ingredients": [
             {
                 "title": "گوجه فرنگی تازه رنده شده و نرم",
@@ -977,7 +977,7 @@
         "tags":"فست فود",
         "preparationTime": "5",
         "cookTime": "5",
-        "image":"https://saednews.com/storage/media-center/images/ac-image-LY1645247508Q5.jpeg",
+        "image":"/images/16.jpeg",
         "ingredients": [
             {
                 "title": "نان تست",
@@ -1024,7 +1024,7 @@
         "tags":"فست فود",
         "preparationTime": "10",
         "cookTime": "20",
-        "image":"https://ashmazi.com/wp-content/uploads/2021/10/158808934_157175072900277_985044449420555147_n-696x695.jpg",
+        "image":"/images/17.jpg",
         "ingredients": [
             {
                 "title": "فلفل سفید",
@@ -1076,7 +1076,7 @@
         "tags":"فست فود",
         "preparationTime": "60",
         "cookTime": "10",
-        "image":"https://saednews.com/storage/media-center/images/ac-image-Ht1597552103mY.jpeg",
+        "image":"/images/18.jpeg",
         "ingredients": [
             {
                 "title": "نمک و فلفل سیاه",
@@ -1122,7 +1122,7 @@
         "tags": "فست فود",
         "preparationTime": "90",
         "cookTime": "30",
-        "image":"https://dehkadehprotein.com/wp-content/uploads/2020/11/poll_U07Hn3Om18aA.jpg",
+        "image":"/images/19.jpg",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده (با چربی)",
@@ -1181,7 +1181,7 @@
         "tags":"فست فود",
         "preparationTime": "15",
         "cookTime": "10",
-        "image":" https://irancook.ir/upload/foodmokamel/pishghaza/bruschetta-havij.jpg",
+        "image":"/images/20.jpg",
         "ingredients": [
             {
                 "title": "نان فرانسوی (ضخامت هر تکه 2 سانتیمتر)",
@@ -1224,7 +1224,7 @@
         "tags":"فست فود" ,
         "preparationTime": "15",
         "cookTime": "15",
-        "image":"https://cdn.sarashpazpapion.com/files/recipes/pictures/web/2016/10/8/45vr8cli1vlf8m2nvfumq5tppoogdmh7OO0iF60biidYsXmC.webp",
+        "image":"/images/21.jfif",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده",
@@ -1279,7 +1279,7 @@
         "tags":"فست فود",
         "preparationTime": "90",
         "cookTime": "60",
-        "image":"https://www.mihanfal.com/wp-content/uploads/2019/07/00238.jpg",
+        "image":"/images/22.jfif",
         "ingredients": [
             {
                 "title": "سینه مرغ",
@@ -1338,7 +1338,7 @@
         "tags":"فست فود",
         "preparationTime": "60",
         "cookTime": "15",
-        "image":"https://kalleh.com/book/wp-content/uploads/sites/2/2018/11/Grilled-Eggplant-Burgers-with-Cheese.jpg.webp",
+        "image":"/images/23.webp",
         "ingredients": [
             {
                 "title": "بادمجان بزرگ",
@@ -1391,7 +1391,7 @@
         "tags":"فست فود",
         "preparationTime": "15",
         "cookTime": "0",
-        "image":"https://kermany.com/wp-content/uploads/2019/10/chicken-salad.jpg",
+        "image":"/images/24.jpg",
         "ingredients": [
             {
                 "title": "نان همبرگر",
@@ -1458,7 +1458,7 @@
         "tags":"فست فود",
         "preparationTime": "15",
         "cookTime": "30",
-        "image":"https://files.namnak.com/users/kk/aup/201701/2555_pics/%D8%A8%D8%B1%DA%AF%D8%B1-%D8%B3%D8%A7%D9%84%D9%85%D9%88%D9%86-%D8%A8%D8%A7-%D8%B3%D8%B3-%D8%B4%D9%88%DB%8C%D8%AF.jpg",
+        "image":"/images/25.jpg",
         "ingredients": [
             {
                 "title": "روغن زیتون",
@@ -1534,7 +1534,7 @@
         "tags":"فست فود",
         "preparationTime": "15",
         "cookTime": "45",
-        "image":"https://saednews.com/storage/media-center/images/ac-image-Nw1646680273Kp.jpeg",
+        "image":"/images/26.jpeg",
         "ingredients": [
             {
                 "title": "سیب زمینی نگینی سرخ کرده",
@@ -1566,7 +1566,7 @@
         "tags":"فست فود",
         "preparationTime": "30",
         "cookTime": "45",
-        "image":"https://saednews.com/storage/media-center/images/ac-image-CQ1644507441Yo.jpeg",
+        "image":"/images/27.jpeg",
         "ingredients": [
             {
                 "title": "لازانیا",
@@ -1617,7 +1617,7 @@
         "tags":"فست فود" ,
         "preparationTime": "45",
         "cookTime": "15",
-        "image":"https://saednews.com/storage/media-center/images/ac-image-aJ1644506474c1.jpeg",
+        "image":"/images/28.jpeg",
         "ingredients": [
             {
                 "title": "سس گوجه تند",
@@ -1677,7 +1677,7 @@
         "tags":"فست فود",
         "preparationTime": "15",
         "cookTime": "20",
-        "image":"https://irancook.ir/wp-content/uploads/2012/09/lazaniya-dar-maikrofer.-min-1.jpg",
+        "image":"/images/29.jpg",
         "ingredients": [
             {
                 "title": "لازانیا",
@@ -1743,7 +1743,7 @@
         "tags":"فست فود",
         "preparationTime": "30",
         "cookTime": "50",
-        "image":"https://files.namnak.com/users/mn/aup/201701/1316_pics/%D9%84%D8%A7%D8%B2%D8%A7%D9%86%DB%8C%D8%A7.jpg",
+        "image":"/images/30.jpg",
         "ingredients": [
             {
                 "title": "سوسیس مرغوب",
@@ -1842,7 +1842,7 @@
         "tags":" ایرانی",
         "preparationTime": "20",
         "cookTime": "40",
-        "image":"https://chishi.ir/wp-content/uploads/2020/06/soup-koodak.jpg",
+        "image":"/images/31.jpg",
         "ingredients": [
             {
                 "title": "ران مرغ",
@@ -1889,7 +1889,7 @@
         "tags":"ایرانی",
         "preparationTime": "25",
         "cookTime": "105",
-        "image":"https://vista.ir/web/imgs/16/11/9qse21.jpeg",
+        "image":"/images/32.jpeg",
         "ingredients": [
             {
                 "title": "گوشت‌ گوساله",
@@ -1956,7 +1956,7 @@
         "tags": "ایرانی",
         "preparationTime": "20",
         "cookTime": "40",
-        "image":"https://persianv.com/ashpazi/wp-content/uploads/sites/14/2014/12/%D8%B3%D9%88%D9%BE-%D9%BE%D8%B1%D8%AA%D9%82%D8%A7%D9%84-600x360.jpg",
+        "image":"/images/33.jpg",
         "ingredients": [
             {
                 "title": "آب پرتقال",
@@ -2007,7 +2007,7 @@
         "tags": "ایرانی",
         "preparationTime": "20",
         "cookTime": "120",
-        "image":"https://arga-mag.com/file/img/2017/04/Wheat-Soup-2.jpg",
+        "image":"/images/34.jpg",
         "ingredients": [
             {
                 "title": "گندم پوست گرفته",
@@ -2054,7 +2054,7 @@
         "tags":"ایرانی",
         "preparationTime": "60",
         "cookTime": "360",
-        "image":"https://darnahayat.ir/wp-content/uploads/2021/10/soup-jo.jpg",
+        "image":"/images/35.jpg",
         "ingredients": [
             {
                 "title": "جو پوست کنده",
@@ -2115,7 +2115,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "90",
-        "image":"https://chishi.ir/wp-content/uploads/2020/07/soup-esfenaj.jpg",
+        "image":"/images/36.jpg",
         "ingredients": [
             {
                 "title": "آب مرغ",
@@ -2176,7 +2176,7 @@
         "tags":"ایرانی",
         "preparationTime": "60",
         "cookTime": "180",
-        "image":"https://www.wikinab.com/wp-content/uploads/2021/11/ash-dandooniy.jpg",
+        "image":"/images/37.jfif",
         "ingredients": [
             {
                 "title": "گندم پوست کنده",
@@ -2220,7 +2220,7 @@
         "tags":"ایرانی",
         "preparationTime": "60",
         "cookTime": "180",
-        "image":"https://gymito.com/blog/wp-content/uploads/2019/11/%D8%B7%D8%B1%D8%B2-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%B4-%D8%B1%D8%B4%D8%AA%D9%87-740x414.jpg",
+        "image":"/images/38.jfif",
         "ingredients": [
             {
                 "title": "رشته آش",
@@ -2286,7 +2286,7 @@
         "tags":"ایرانی",
         "preparationTime": "60",
         "cookTime": "240",
-        "image":"https://parsiday.com/wp-content/uploads/2019/02/ash-sholeh-ghalamkar.jpg",
+        "image":"/images/39.jfif",
         "ingredients": [
             {
                 "title": "قلم گوساله یاگوشت گردن",
@@ -2364,7 +2364,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "120",
-        "image":"https://iranwatching.com/images/content-image/2020/01/iranwatching-800-1578403059-ashtorshi.jpg",
+        "image":"/images/40.jfif",
         "ingredients": [
             {
                 "title": "عدس و لوبیا و نخود",
@@ -2407,7 +2407,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "120",
-        "image":"https://chishi.ir/wp-content/uploads/2020/09/ash-mash.jpg",
+        "image":"/images/41.jpg",
         "ingredients": [
             {
                 "title": "نمک و فلفل",
@@ -2450,7 +2450,7 @@
         "tags": "ایرانی",
         "preparationTime": "0",
         "cookTime": "150",
-        "image":"https://images.kojaro.com/2021/1/6ccf9f74-30ab-47be-9a2f-6c56446a5410.jpg",
+        "image":"/images/42.webp",
         "ingredients": [
             {
                 "title": "سبزی (آش)",
@@ -2510,7 +2510,7 @@
         "tags": "ایرانی",
         "preparationTime": "50",
         "cookTime": "120",
-        "image":"https://irancook.ir/wp-content/uploads/2018/12/ash-shalgham-2.jpg",
+        "image":"/images/43.jpg",
         "ingredients": [
             {
                 "title": "شلغم",
@@ -2556,7 +2556,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "120",
-        "image":"https://pintati.com/wp-content/uploads/2021/01/Ezogolin-soup-pintat00.jpg",
+        "image":"/images/44.jpg",
         "ingredients": [
             {
                 "title": "گوشت گردن گوسفندبااستخوان",
@@ -2609,7 +2609,7 @@
         "tags": "ایرانی",
         "preparationTime": "60",
         "cookTime": "60",
-        "image":"https://blog.okala.com/wp-content/uploads/2021/10/tahchin-morgh.jpg",
+        "image":"/images/45.webp",
         "ingredients": [
             {
                 "title": "زرشک",
@@ -2669,7 +2669,7 @@
         "tags":"ایرانی",
         "preparationTime": "15",
         "cookTime": "30",
-        "image":"https://chishi.ir/wp-content/uploads/2019/11/tahchin-morgh.jpg",
+        "image":"/images/46.jpg",
         "ingredients": [
             {
                 "title": "برنج آبکش شده",
@@ -2708,7 +2708,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "60",
-        "image":"https://files.virgool.io/upload/users/223425/posts/u5xzau1mz2hy/i5pmurz24mhn.jpeg",
+        "image":"/images/47.webp",
         "ingredients": [
             {
                 "title": "برنج",
@@ -2769,7 +2769,7 @@
         "tags":"ایرانی",
         "preparationTime": "20",
         "cookTime": "20",
-        "image":"https://parsisara.com/wp-content/uploads/2019/08/shami-soya.jpg",
+        "image":"/images/48.jpg",
         "ingredients": [
             {
                 "title": "سویا",
@@ -2817,7 +2817,7 @@
         "tags": "فست فود" ,
         "preparationTime": "30",
         "cookTime": "25",
-        "image":"http://www.yotaab.com/%D8%A2%D8%B4%D9%BE%D8%B2%DB%8C/images/%DA%A9%D8%B1%D9%88%DA%A9%D8%AA-%D8%B3%DB%8C%D8%A8-%D8%B2%D9%85%DB%8C%D9%86%DB%8C-%D9%81%DB%8C%D9%84%D9%87-%D9%85%D8%B1%D8%BA.jpg",
+        "image":"/images/49.jpg",
         "ingredients": [
             {
                 "title": "جعفری خرد شده",
@@ -2863,7 +2863,7 @@
         "tags":"ایرانی",
         "preparationTime": "45",
         "cookTime": "60",
-        "image":"https://img-global.cpcdn.com/recipes/0fd0e5a7de8e4a7e/680x482cq70/%D8%B4%D8%A7%D9%85%DB%8C-%DA%AF%DB%8C%D9%84%D8%A7%D9%86%DB%8C-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D8%B5%D9%84%DB%8C-%D8%B9%DA%A9%D8%B3.webp",
+        "image":"/images/50.webp",
         "ingredients": [
             {
                 "title": "زعفران (دم کرده و غلیظ)",
@@ -2918,7 +2918,7 @@
         "tags":"ایرانی",
         "preparationTime": "0",
         "cookTime": "60",
-        "image":"http://www.goosfandkhan.com/wp-content/uploads/2017/10/%D9%85%D8%B3%DB%8C-650x380.jpg",
+        "image":"/images/51.jfif",
         "ingredients": [
             {
                 "title": "کره",
@@ -2956,7 +2956,7 @@
         "tags":"ایرانی",
         "preparationTime": "0",
         "cookTime": "60",
-        "image":"https://blog.okala.com/wp-content/uploads/2021/05/%D8%AF%D9%84%D9%85%D9%87-%D8%A8%D8%B1%DA%AF-%D9%85%D9%88.jpg",
+        "image":"/images/52.webp",
         "ingredients": [
             {
                 "title": "برگ مو",
@@ -3019,7 +3019,7 @@
         "tags": "ایرانی",
         "preparationTime": "60",
         "cookTime": "60",
-        "image":"https://noktechi.ir/wp-content/uploads/2021/07/dolme-bademjan.jpg",
+        "image":"/images/53.jpg",
         "ingredients": [
             {
                 "title": "سبزی معطر (ترخون و مزره و نعنا و شوید)",
@@ -3087,7 +3087,7 @@
         "tags": "ایرانی",
         "preparationTime": "30",
         "cookTime": "60",
-        "image":"https://nezareha.com/wp-content/uploads/2019/05/kofte-tabrizi-1.jpg",
+        "image":"/images/54.jpg",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده",
@@ -3158,7 +3158,7 @@
         "tags":"ایرانی",
         "preparationTime": "15",
         "cookTime": "30",
-        "image":"http://cdn44.akairan.com/rep/20181015090537230984.jpg",
+        "image":"/images/55.jfif",
         "ingredients": [
             {
                 "title": "گوجه فرنگی (نگینی شده)",
@@ -3206,7 +3206,7 @@
         "tags":"ایرانی",
         "preparationTime": "120",
         "cookTime": "30",
-        "image":"https://www.talab.org/wp-content/uploads/2016/12/2134221855-talab-ir.jpg",
+        "image":"/images/56.jpg",
         "ingredients": [
             {
                 "title": "ادویه فلافل (زردچوبه و پودر زیره و پودرسیر و تخم گشنیز و نمک)",
@@ -3259,7 +3259,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "0",
-        "image":"https://iranwatching.com/images/content-image/2019/10/iranwatching-572-1570473183-doimaj.jpg",
+        "image":"/images/57.jfif",
         "ingredients": [
             {
                 "title": "سبزی خوردن",
@@ -3315,7 +3315,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "60",
-        "image":"https://files.namnak.com/users/kk/aup/201912/179_pics/%D9%82%DB%8C%D9%85%D9%87-%D9%86%D8%AB%D8%A7%D8%B1-%D9%82%D8%B2%D9%88%DB%8C%D9%86.jpg",
+        "image":"/images/58.jpg",
         "ingredients": [
             {
                 "title": "برنج",
@@ -3393,7 +3393,7 @@
         "tags": "ایرانی",
         "preparationTime": "45",
         "cookTime": "60",
-        "image":"https://files.namnak.com/users/kk/aup/201905/260_pics/%D8%AA%D9%87%DB%8C%D9%87-%D8%A8%D8%A7%D8%AF%D9%85%D8%AC%D8%A7%D9%86-%D8%B4%DA%A9%D9%85-%D9%BE%D9%8F%D8%B1-%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86%DB%8C.jpg",
+        "image":"/images/59.jpg",
         "ingredients": [
             {
                 "title": "بادمجان",
@@ -3445,7 +3445,7 @@
         "tags": "ایرانی",
         "preparationTime": "30",
         "cookTime": "60",
-        "image":"https://panamag.ir/wp-content/uploads/2021/09/ghaliye-mahi.jpg",
+        "image":"/images/60.jpg",
         "ingredients": [
             {
                 "title": "ماهی",
@@ -3493,7 +3493,7 @@
         "tags":"ایرانی",
         "preparationTime": "20",
         "cookTime": "180",
-        "image":"https://darnahayat.ir/wp-content/uploads/2021/10/fesenjan-goosht-ghelgheli.jpg",
+        "image":"/images/61.jpg",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده",
@@ -3539,7 +3539,7 @@
         "tags":"ایرانی",
         "preparationTime": "20",
         "cookTime": "30",
-        "image":"https://chishi.ir/wp-content/uploads/2020/09/shami-havij.jpg",
+        "image":"/images/62.jpg",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده",
@@ -3599,7 +3599,7 @@
         "tags":"ایرانی",
         "preparationTime": "90",
         "cookTime": "60",
-        "image":"https://www.beytoote.com/images/stories/food/fo3857.jpg",
+        "image":"/images/63.jpg",
         "ingredients": [
             {
                 "title": "فیله مرغ",
@@ -3644,7 +3644,7 @@
         "tags":"ایرانی",
         "preparationTime": "120",
         "cookTime": "60",
-        "image":"https://i1.delgarm.com/pic/300/224/0//images/news/a811/1397/10/02/1545568775_C8gM3.jpg",
+        "image":"/images/64.jpg",
         "ingredients": [
             {
                 "title": "گوشت (کبابی و بدون استخوان(قلوه گاه گوسفندی))",
@@ -3682,7 +3682,7 @@
         "tags": "ایرانی",
         "preparationTime": "30",
         "cookTime": "40",
-        "image":"https://www.mizan.news/files/fa/news/1400/8/12/3323057_511.jpg",
+        "image":"/images/65.jfif",
         "ingredients": [
             {
                 "title": "بادمجان دلمه ای",
@@ -3751,7 +3751,7 @@
         "tags": "ایرانی",
         "preparationTime": "50",
         "cookTime": "50",
-        "image":"https://noktechi.ir/wp-content/uploads/2021/11/dolme-felfel-dolme.jpg",
+        "image":"/images/66.jpg",
         "ingredients": [
             {
                 "title": "نمک و فلفل",
@@ -3815,7 +3815,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "60",
         "cookTime": "45",
-        "image":"https://www.alamto.com/wp-content/uploads/2022/02/273886390_276746554590560_7047690231947533537_n.jpg",
+        "image":"/images/67.jpg",
         "ingredients": [
             {
                 "title": "آرد سفید",
@@ -3862,7 +3862,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "60",
         "cookTime": "20",
-        "image":"https://panamag.ir/wp-content/uploads/2021/09/shirini-nargili.jpg",
+        "image":"/images/68.jpg",
         "ingredients": [
             {
                 "title": "تخم مرغ (سفیده) درشت",
@@ -3902,7 +3902,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "30",
         "cookTime": "15",
-        "image":"https://www.parsine.com/files/fa/news/1399/11/5/1227391_450.jpg",
+        "image":"/images/69.jfif",
         "ingredients": [
             {
                 "title": "گردو (بو داده و خرد شده)",
@@ -3969,7 +3969,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "60",
         "cookTime": "30",
-        "image":"https://www.tasvirezendegi.com/wp-content/uploads/2014/08/3889.jpg",
+        "image":"/images/70.jpg",
         "ingredients": [
             {
                 "title": "خمیر پای به اندازه ی یک نان پای به قطر 22 سانتی متر",
@@ -4032,7 +4032,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "0",
         "cookTime": "0",
-        "image":"https://iambaker.net/wp-content/uploads/2013/12/rainbowcake71.jpg",
+        "image":"/images/71.jpg",
         "ingredients": [
             {
                 "title": "پودر کیک",
@@ -4069,7 +4069,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "35",
         "cookTime": "0",
-        "image":"https://saednews.com/storage/media-center/images/ac-image-fD1644214372G5.jpeg",
+        "image":"/images/72.jpeg",
         "ingredients": [
             {
                 "title": "کراکر یا بیسکوئیت خرد شده",
@@ -4133,7 +4133,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "60",
         "cookTime": "15",
-        "image":"https://irancook.ir/wp-content/uploads/2012/01/2Color-biscuitss.jpg",
+        "image":"/images/73.jpg",
         "ingredients": [
             {
                 "title": "پودر کاکائو",
@@ -4179,7 +4179,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "120",
         "cookTime": "5",
-        "image":"https://persianv.com/ashpazi/wp-content/uploads/sites/14/2018/02/%DA%86%DB%8C%D8%B2%DA%A9%DB%8C%DA%A9-%D8%AA%D9%88%D8%AA-%D9%81%D8%B1%D9%86%DA%AF%DB%8C-1.jpg",
+        "image":"/images/74.jpg",
         "ingredients": [
             {
                 "title": "آب سرد",
@@ -4261,7 +4261,7 @@
         "tags": "کیک و دسر",
         "preparationTime": "30",
         "cookTime": "12",
-        "image":"https://files.namnak.com/users/mn/aup/201701/1439_pics/%D8%B4%DB%8C%D8%B1%DB%8C%D9%86%DB%8C-%D8%B4%D8%B7%D8%B1%D9%86%D8%AC%DB%8C.jpg",
+        "image":"/images/75.jpg",
         "ingredients": [
             {
                 "title": "نمک",
@@ -4315,7 +4315,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "180",
         "cookTime": "0",
-        "image":"https://deltapayam.com/wp-content/uploads/2019/07/20170526-no-bake-cheesecake-vicky-wasik-18-1500x1125.jpg",
+        "image":"/images/76.jfif",
         "ingredients": [
             {
                 "title": "بیسکویت ساده",
@@ -4370,7 +4370,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "30",
         "cookTime": "70",
-        "image":"https://www.tasvirezendegi.com/wp-content/uploads/2015/10/cheese-cake-dark-chocolate-2.jpg",
+        "image":"/images/77.jpg",
         "ingredients": [
             {
                 "title": "ویفر شکلاتی",
@@ -4438,7 +4438,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "90",
         "cookTime": "15",
-        "image":"https://chishi.ir/wp-content/uploads/2021/07/ghotab-gerdooei.jpg",
+        "image":"/images/78.jpg",
         "ingredients": [
             {
                 "title": "روغن جامد",
@@ -4499,7 +4499,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "0",
         "cookTime": "30",
-        "image":"https://files.virgool.io/upload/users/299114/posts/ovnu2tdxwtas/nossmqqssnoy.jpeg",
+        "image":"/images/79.webp",
         "ingredients": [
             {
                 "title": "آرد برنج",
@@ -4544,7 +4544,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "30",
         "cookTime": "15",
-        "image":"https://darnahayat.ir/wp-content/uploads/2021/09/shirini-keshmeshi.jpg",
+        "image":"/images/80.jpg",
         "ingredients": [
             {
                 "title": "آرد کامل (آرد سبوس دار)",
@@ -4597,7 +4597,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "30",
         "cookTime": "20",
-        "image":"https://noktechi.ir/wp-content/uploads/2021/10/kooki-lahijan.jpg",
+        "image":"/images/81.jpg",
         "ingredients": [
             {
                 "title": "آرد قنادی",
@@ -4658,7 +4658,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "15",
         "cookTime": "15",
-        "image":"https://img.tebyan.net/big/1396/07/147168144150901722102311061315923422380184169.jpg",
+        "image":"/images/82.jpg",
         "ingredients": [
             {
                 "title": "پودر کیک (موزی)",
@@ -4691,7 +4691,7 @@
         "tags":"کیک و دسر",
         "preparationTime": "30",
         "cookTime": "15",
-        "image":"https://irancook.ir/wp-content/uploads/cake-microwave.jpg",
+        "image":"/images/83.jpg",
         "ingredients": [
             {
                 "title": "کره",
@@ -4737,7 +4737,7 @@
         "tags": "کیک و دسر",
         "preparationTime": "60",
         "cookTime": "30",
-        "image":"https://irancook.ir/wp-content/uploads/2019/10/%D8%AA%D8%A7%D8%B1%D8%AA-%D8%A7%D9%86%D8%A7%D8%B1-%D8%B4%DA%A9%D9%84%D8%A7%D8%AA%DB%8C-%D8%A8%D8%AF%D9%88%D9%86-%D9%81%D8%B1.jpg",
+        "image":"/images/84.jpg",
         "ingredients": [
             {
                 "title": "انار دون شده",
@@ -4826,7 +4826,7 @@
         "tags": "کیک و دسر",
         "preparationTime": "15",
         "cookTime": "30",
-        "image":"https://www.finds.ir/img/201810311084550.jpg",
+        "image":"/images/85.jpg",
         "ingredients": [
             {
                 "title": "شیر یا آب",
@@ -4876,7 +4876,7 @@
         "tags": "کیک و دسر",
         "preparationTime": "30",
         "cookTime": "20",
-        "image":"https://namagard.com/wp-content/uploads/2019/02/how-to-mak-cupcake-banana-1.jpg",
+        "image":"/images/86.jfif",
         "ingredients": [
             {
                 "title": "کره",
