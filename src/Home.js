@@ -8,13 +8,8 @@ import Menu from './components/Menu';
 import ScrollTop from './ScrollTop';
  
 const Home = ( ) => {
-  
- 
   return (
-    
-  
         <div  >
-    
         <Header/>
         <Menu/>
         <NewRecipe/>
@@ -22,10 +17,7 @@ const Home = ( ) => {
        <ContactUs/>
         <Footer/>
         <ScrollTop/>
-     
-   
         </div>
- 
     );
 };
 
