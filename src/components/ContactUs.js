@@ -33,7 +33,7 @@ const ContactUs = () => {
 
     return (
         <div className={styles['contact-us']}>
-            <h4>پیام خود را برای ما بنویسید</h4>
+            <h4>پیام و دستورپخت‌های پیشنهادی خود را برای ما بنویسید</h4>
             <textarea
                 rows="7"
                 placeholder="...پیامت رو اینجا بنویس"
