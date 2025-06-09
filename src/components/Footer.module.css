@@ -10,11 +10,11 @@
 }
 
 .footericon {
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: space-around;
   padding-top: 30px;
-
+align-items: center;
 }
 
 .logoicon {
