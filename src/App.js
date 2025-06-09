@@ -15,13 +15,10 @@ import { lightTheme, darkTheme } from "./Thems"
 import Toggle from "./Toggler";
 import data from "./recipes.json";
 import One from './menu/One';
-import ScrollToTop from "./ScrollToTop"; // اضافه کن
+import ScrollToTop from "./ScrollToTop"; 
 
 
 function App() {
-
-
-
   const [theme, themeToggler, mountedComponent] = useDarkMode();
   const themeMode = (theme === 'light') ? lightTheme : darkTheme;
   if (!mountedComponent) return <div />
@@ -43,8 +40,6 @@ function App() {
         </Switch>
       </div>
     </ThemeProvider>
-
-
   )
 }
 

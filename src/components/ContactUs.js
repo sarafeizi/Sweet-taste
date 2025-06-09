@@ -34,16 +34,13 @@ const ContactUs = () => {
     return (
         <div className={styles['contact-us']}>
             <h4>پیام خود را برای ما بنویسید</h4>
-
             <textarea
                 rows="7"
                 placeholder="...پیامت رو اینجا بنویس"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
             />
-
             <button onClick={sendHandler}>ارسال</button>
-
             <ToastContainer />
         </div>
     );

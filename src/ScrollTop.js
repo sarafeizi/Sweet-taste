@@ -19,7 +19,7 @@ const ScrollTop = () => {
     return () => {
       window.removeEventListener('scroll', checkScrollTop);
     };
-  }, []); // فقط موقع mount و unmount اجرا می‌شود
+  }, []);  
 
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });

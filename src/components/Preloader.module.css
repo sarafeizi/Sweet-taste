@@ -1,15 +1,15 @@
-.preloader{
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
-  box-sizing: border-box;
-  }
- 
+.preloader {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
     position: relative;
     display: flex;
@@ -88,24 +88,46 @@
 }
 
 @keyframes move {
-    0% {transform: translateY(0);opacity: 1;}
-    99% { transform: translateY(50px); opacity: 0;}
-    1000% {transform: translateY(-50px); opacity: 0;}
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    99% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    1000% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
 }
 
-@keyframes move2{
-    0% {transform: translateY(-50px); opacity: 0;}
-    60% {transform: translateY(0); opacity: 1;}
-    100% {transform: translateY(0); opacity: 1;}
+@keyframes move2 {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
- 
+
 .container.step1 .hamburger {
     transition: transform 0.2s linear, opacity 0.4s linear;
     transform: translateY(50px);
     opacity: 0;
 }
 
-.container.step2 .hamburger{
+.container.step2 .hamburger {
     transition: none;
     transform: translateY(-50px);
 }
@@ -135,9 +157,9 @@
 .container.step3 .upbread {
     transition-delay: 1s;
 }
- 
-  .bigeror{
- 
+
+.bigeror {
+
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
@@ -146,14 +168,14 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    
-  }
- 
+
+}
+
 
 * {
     box-sizing: border-box;
 }
- 
+
 .container {
     position: relative;
     z-index: -1;
@@ -166,7 +188,7 @@
 h1 {
     margin: 0;
 }
- 
+
 
 .largeSizeH {
     font-size: 10rem;
@@ -181,20 +203,21 @@ h1 {
     color: #c70000;
     left: 0;
     top: 100px;
-    
+
 }
+
 .container .fourright {
     font-size: 100px;
     position: absolute;
     z-index: 1;
-  
+
     margin: 0;
     color: #c70000;
     right: 0;
     top: 100px;
 }
 
- 
+
 .pizza {
     background-image: url('../image//Pizza_Pepperoni.png');
     background-repeat: no-repeat;
@@ -213,10 +236,11 @@ h1 {
 
 @keyframes spin {
     from {
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -226,6 +250,7 @@ h1 {
     position: absolute;
     bottom: 0;
 }
+
 .container.dark .text {
     color: #fff;
 }

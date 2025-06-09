@@ -99,11 +99,6 @@ const Signup = () => {
                         onFocus={focusHanlder} />
                     {errors.confirmPassword && touched.confirmPassword && <span className={styles.span}>{errors.confirmPassword}</span>}
                 </div>
-
-
-
-                
-            
                 <div className={styles.formfield}>
                     <div className={styles.checkboxcontainer}>
                         <label>قوانین سایت را رعایت میکنم</label>
@@ -116,17 +111,10 @@ const Signup = () => {
                     </div>
                     {errors.isAccepted && touched.isAccepted && <span className={styles.span}>{errors.isAccepted}</span>}
                 </div>
-
-
- 
-
-
-
                 <div className={styles.formbuttons}>
                     <Link to="/login" className={styles.formbuttonslinkv}>ورود</Link>
                     <button type="submit" className={styles.formbuttonslink}>ثبت نام</button>
                 </div>
-                 
             </form>
             <ToastContainer />
         </div>

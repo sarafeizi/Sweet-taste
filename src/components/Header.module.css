@@ -11,9 +11,9 @@
   min-height: calc(100vh - 76px);
   background-image: url("../image/13.jpg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   background-position: center center;
-  background-attachment: scroll; 
+  background-attachment: scroll;
   height: 100vh;
   width: 100%;
 }

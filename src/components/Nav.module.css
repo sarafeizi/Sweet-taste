@@ -74,8 +74,8 @@ a {
 .loginregister {
   font-family: 'mikhak';
   position: relative;
-top: 30%;
-right: 4%;
+  top: 30%;
+  right: 4%;
 }
 
 .loginregister a {
@@ -88,7 +88,7 @@ right: 4%;
   font-size: 30px;
   text-decoration: none;
   color: #ff2600;
- 
+
 }
 
 .exitButton {
@@ -98,13 +98,13 @@ right: 4%;
   justify-content: center;
   border: none;
   background-color: hsl(0, 100%, 70%);
-  padding:2px 7px;
+  padding: 2px 7px;
   border-radius: 0.3rem;
   position: relative;
   top: -32%;
   right: -19px;
 }
- 
+
 .greeting {
   display: inline-flex;
   align-items: center;
