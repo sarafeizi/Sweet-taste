@@ -38,14 +38,19 @@
   left: 2%;
 }
 
-.mainform {
+.searchContainer {
   position: relative;
-  left: 20px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mainform {
+  width: 100%;
 }
 
 .mainsearch {
   height: 55px;
-  width: 75%;
+  width: 100%;
   border: none;
   border-radius: 3px;
   background-color: #eccdcd;
@@ -70,14 +75,16 @@
 }
 
 .bigsearch {
-  z-index: 2;
-  overflow-y: auto;
-  max-height: 150px;
-  max-width: 85%;
-  position: relative;
+  position: absolute;
+  top: 60px; /* فاصله از input */
   left: 0;
-  margin: 10px auto 0 auto;
-  padding-right: 10px;
+  width: 100%;
+  background-color: #eccdcd;
+  z-index: 10;
+  overflow-y: auto;
+  max-height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .search {
@@ -88,7 +95,6 @@
   padding: 8px 12px;
   width: 100%;
   border-bottom: 1px solid white;
-  border-radius: 4px;
 }
 
 .searchlink {

@@ -33,19 +33,19 @@ const Header = () => {
           <div className={styles.mainheader2}>
             <span className={`${styles.title} title-heading`}>آشپزی و دستور پخت</span>
 
-            <form action="#" className={styles.mainform} method="get">
-              <input
-                type="search"
-                placeholder="غذایی که میخوامو پیدا کن "
-                className={`${styles.mainsearch} col-sm-10`}
-                value={search}
-                onChange={searchHandler}
-              />
-            </form>
+            <div className={styles.searchContainer}>
+              <form className={styles.mainform}>
+                <input
+                  type="search"
+                  placeholder="غذایی که میخوامو پیدا کن"
+                  className={styles.mainsearch}
+                  value={search}
+                  onChange={searchHandler}
+                />
+              </form>
 
-            <div>
               {search.length > 0 && (
-                <div className={`${styles.bigsearch} col-10 col-md-6 mx-auto`}>
+                <div className={styles.bigsearch}>
                   {searchedFoods.map(item => (
                     <div className={styles.search} key={item.foodID}>
                       <Link to={`/${item.title}`} className={styles.searchlink}>
