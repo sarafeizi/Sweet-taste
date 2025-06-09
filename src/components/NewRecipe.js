@@ -14,7 +14,7 @@ const recipes = [
 ];
 
 const NewRecipe = () => {
-  const settings = {
+  const settings_3 = {
     dots: false,
     infinite: true,
     slidesToShow: 3,
@@ -22,16 +22,14 @@ const NewRecipe = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     rtl: true,
-    responsive: [
-      {
-        breakpoint: 860,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
-    ],
+    responsive: [{
+      breakpoint: 860,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 2,
+      }
+    }]
   };
 
   return (
@@ -44,15 +42,14 @@ const NewRecipe = () => {
                 پیشنهادات شما که در آینده داخل سایت قرار میگیرد
               </h3>
             </nav>
-            <div className={`${styles.bordernew} col-12 mx-auto col-md-6`}></div>
-
+            <div className={`${styles.bordernew} col-12 mx-auto co-md-6`}></div>
             <div className={`${styles.nav1} row`}>
-              <Slider {...settings}>
+              <Slider {...settings_3}>
                 {recipes.map(({ id, img, title }) => (
                   <div key={id}>
                     <div className={styles.nav}>
                       <div className={styles.bigimgnav}>
-                        <img src={img} alt={title} className={styles.imgnav} />
+                        <img src={img} className={styles.imgnav} alt={title} />
                       </div>
                       <br />
                       <p className={styles.anav}>{title}</p>
@@ -60,14 +57,13 @@ const NewRecipe = () => {
                   </div>
                 ))}
               </Slider>
-
-              <div className={`${styles.bordernew1} col-12 mx-auto col-md-6`}></div>
+              <div className={`${styles.bordernew1} col-12 mx-auto co-md-6`}></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default NewRecipe;
