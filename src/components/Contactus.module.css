@@ -13,7 +13,6 @@
 
   margin: auto;
   padding: 40px max(40px, calc((100vw - 1000px) / 2));
-  margin-top: 6%;
 }
 
 h4 {

@@ -10,10 +10,12 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^7.1.1",
     "@mui/x-date-pickers": "^8.5.1",
+    "@supabase/supabase-js": "^2.50.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "emailjs-com": "^3.2.0",
     "i18next": "^21.9.1",
     "i18next-browser-languagedetector": "^6.1.5",
     "i18next-http-backend": "^1.4.3",
@@ -36,7 +38,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
