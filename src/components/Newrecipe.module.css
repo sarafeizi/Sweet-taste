@@ -49,7 +49,7 @@
   position: relative;
 }
 
-.row >* {
+.row>* {
   width: 80% !important;
   margin-left: 0;
   margin-right: 0;
@@ -118,8 +118,9 @@
   top: 74px;
 
 }
-
-
+button{
+  margin-top: 0 !important;
+}
 .nav1 {
   display: flex;
   position: relative;
@@ -127,9 +128,9 @@
   justify-content: space-around;
   margin-top: 300px;
   margin-bottom: -350px;
-  width: 98% !important;
+  width: 100% !important;
   margin-left: 0;
   margin-right: 0;
-  padding-right: calc(var(--bs-gutter-x) * 1.4);
+  padding-right: calc(var(--bs-gutter-x) * 2);
   padding-left: calc(var(--bs-gutter-x) * 2);
 }
