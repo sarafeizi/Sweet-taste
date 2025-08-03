@@ -181,7 +181,7 @@
         "tags": "فست فود",
         "preparationTime": "20",
         "cookTime": "30",
-        "image":"/images/4.jpg",
+        "image":"/images/4.webp",
         "ingredients": [
             {
                 "title": "سینه‌ مرغ",
@@ -977,7 +977,7 @@
         "tags":"فست فود",
         "preparationTime": "5",
         "cookTime": "5",
-        "image":"/images/16.jpeg",
+        "image":"/images/16.jpg",
         "ingredients": [
             {
                 "title": "نان تست",
@@ -1224,7 +1224,7 @@
         "tags":"فست فود" ,
         "preparationTime": "15",
         "cookTime": "15",
-        "image":"/images/21.jfif",
+        "image":"/images/21.webp",
         "ingredients": [
             {
                 "title": "گوشت چرخ کرده",
@@ -1566,7 +1566,7 @@
         "tags":"فست فود",
         "preparationTime": "30",
         "cookTime": "45",
-        "image":"/images/27.jpeg",
+        "image":"/images/27.webp",
         "ingredients": [
             {
                 "title": "لازانیا",
@@ -1617,7 +1617,7 @@
         "tags":"فست فود" ,
         "preparationTime": "45",
         "cookTime": "15",
-        "image":"/images/28.jpeg",
+        "image":"/images/28.webp",
         "ingredients": [
             {
                 "title": "سس گوجه تند",
@@ -2863,7 +2863,7 @@
         "tags":"ایرانی",
         "preparationTime": "45",
         "cookTime": "60",
-        "image":"/images/50.webp",
+        "image":"/images/50.jpeg",
         "ingredients": [
             {
                 "title": "زعفران (دم کرده و غلیظ)",
@@ -3158,7 +3158,7 @@
         "tags":"ایرانی",
         "preparationTime": "15",
         "cookTime": "30",
-        "image":"/images/55.jfif",
+        "image":"/images/55.jpg",
         "ingredients": [
             {
                 "title": "گوجه فرنگی (نگینی شده)",
@@ -3259,7 +3259,7 @@
         "tags":"ایرانی",
         "preparationTime": "30",
         "cookTime": "0",
-        "image":"/images/57.jfif",
+        "image":"/images/57.jpg",
         "ingredients": [
             {
                 "title": "سبزی خوردن",
@@ -4876,7 +4876,7 @@
         "tags": "کیک و دسر",
         "preparationTime": "30",
         "cookTime": "20",
-        "image":"/images/86.jfif",
+        "image":"/images/86.jpg",
         "ingredients": [
             {
                 "title": "کره",
