@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.copyright}>
-                <p className={styles.pcopyright}>© The Copyright Of This Site Belongs To Its Owners :D</p>
+                <p className={styles.pcopyright}>© Copyright Of This Site Belongs To Its Owner :D</p>
             </div>
         </footer>
     );
