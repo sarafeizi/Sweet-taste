@@ -31,8 +31,8 @@ function App() {
         <Toggle theme={theme} toggleTheme={themeToggler} />
         <ScrollToTop />
         <Switch >
-          <Route path="/login" component={Login} />
-          <Route path="/signup" component={Signup} />
+          {/* <Route path="/login" component={Login} />
+          <Route path="/signup" component={Signup} /> */}
           {data.map((data) => <Route key={data.foodID} path={'/' + data.title}><One data={data}></One></Route>)}
           <Route path="/Error" component={Error} />
           <Route exact path="/" component={Home} />

@@ -11,7 +11,7 @@ const Nav = () => {
                         Sweet Taste
                     </Link>
                 </div>
-                <div className={`${styles.left}  px5 `}>
+                {/* <div className={`${styles.left}  px5 `}>
                     <span className={styles.loginregister}>
                         <Link to="/login" title="log-in">
                             ورود
@@ -21,7 +21,7 @@ const Nav = () => {
                             ثبت نام
                         </Link>
                     </span>
-                </div>
+                </div> */}
             </nav>
         </div>
     );
