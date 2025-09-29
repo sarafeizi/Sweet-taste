@@ -1,34 +1,56 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import styles from '../components/Contactus.module.css';
 
+const ACCESS_KEY = process.env.REACT_APP_WEB3FORMS_KEY;
+// موقتاً برای عیب‌یابی اضافه شود
+console.log('Web3Forms Access Key:', ACCESS_KEY);
 const ContactUs = () => {
     const [message, setMessage] = useState('');
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
-    const sendHandler = (e) => {
+    const sendHandler = async (e) => {
         e.preventDefault();
 
         if (!message.trim()) {
             toast.error('لطفاً پیامی وارد کنید');
             return;
         }
+        setIsSubmitting(true);
+        const formData = {
+            message: message,
+            access_key: ACCESS_KEY,
+            botcheck: '',
+            subject: ":پیام جدید از کاربر سایت آشپزی ",
+            from_name: "مدیریت سایت Sweet Taste",
+        };
 
-        emailjs.send(
-            'service_hsasbah',
-            'template_u0zclv5',
-            { message },
-            'LG3YyICqYO0suRUf1'
-        )
-            .then(() => {
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
                 toast.success('پیام شما با موفقیت ارسال شد 🎉');
                 setMessage('');
-            })
-            .catch((error) => {
-                console.error(error);
+            } else {
+                console.error("Web3Forms Error:", result.message);
                 toast.error('ارسال پیام با خطا مواجه شد ❌');
-            });
+            }
+        } catch (error) {
+            console.error("Network Error:", error);
+            toast.error('ارتباط با سرور با مشکل مواجه شد ❌');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -40,7 +62,11 @@ const ContactUs = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
             />
-            <button onClick={sendHandler}>ارسال</button>
+
+            <button onClick={sendHandler} disabled={isSubmitting}>
+                {isSubmitting ? '... در حال ارسال' : 'ارسال'}
+            </button>
+
             <ToastContainer />
         </div>
     );
