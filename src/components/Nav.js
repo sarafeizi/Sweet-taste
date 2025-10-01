@@ -1,29 +1,21 @@
 import React from 'react';
 import styles from '../components/Nav.module.css';
 import { Link } from 'react-router-dom';
+import Toggle from '../Toggler'; 
 
-const Nav = () => {
+const Nav = ({ theme, toggleTheme }) => {
     return (
-        <div>
-            <nav className={styles.header}>
-                <div className={`${styles.logo}  navbar-brand mt-2  `}>
-                    <Link to="/" title="cooking website">
-                        Sweet Taste
-                    </Link>
-                </div>
-                {/* <div className={`${styles.left}  px5 `}>
-                    <span className={styles.loginregister}>
-                        <Link to="/login" title="log-in">
-                            ورود
-                        </Link>
-                        <span id="back" style={{ color: "black" }}> / </span>
-                        <Link to="/signup" title="sign-up">
-                            ثبت نام
-                        </Link>
-                    </span>
-                </div> */}
-            </nav>
-        </div>
+        <nav className={styles.header}>
+            <div className={`${styles.logo} navbar-brand mt-2`}>
+                <Link to="/" title="cooking website">
+                    Sweet Taste
+                </Link>
+            </div>
+            
+            <div className={styles.themeTogglerContainer}>
+                <Toggle theme={theme} toggleTheme={toggleTheme} />
+            </div>
+        </nav>
     );
 };
 

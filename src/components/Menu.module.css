@@ -80,8 +80,7 @@
 
 .butmenu {
   color: white;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   background-color: #9c9b9b;
 
   border: 1px solid #9c9b9b;
@@ -102,8 +101,7 @@
 .butmenu:hover,
 .butmenu2 {
   color: orangered;
-  margin-left: 10px;
-  margin-right: 10px;
+ margin: 10px;
   background-color: white;
   border: 1px solid #9c9b9b;
 }

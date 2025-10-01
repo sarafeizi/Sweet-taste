@@ -76,7 +76,8 @@
 
 .bigsearch {
   position: absolute;
-  top: 60px; /* فاصله از input */
+  top: 60px;
+  /* فاصله از input */
   left: 0;
   width: 100%;
   background-color: #eccdcd;
@@ -115,4 +116,10 @@
   object-fit: cover;
   border-radius: 5px;
   margin-left: 10px;
+}
+
+@media (max-width: 480px) {
+  .searchContainer {
+    margin-left: 17%
+  }
 }
